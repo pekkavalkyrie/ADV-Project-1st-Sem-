@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://th.bing.com/th/id/R.a3c214bb6c41a61b1204eca044b81b0b?rik=dkeeF7dX1u7yjQ&riu=http%3a%2f%2fhakan.yensav.com%2fwp-content%2fuploads%2f2019%2f02%2fWeapons-Wallpapers-HD-1800x1200.jpg&ehk=w22B1CFL%2f2VI1V2XeByahx6RZ1RudpEFqTazxG02%2faI%3d&risl=&pid=ImgRaw&r=0'); /* Tactical background */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.85); /* Dark overlay */
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ff9800;
+    font-family: 'Impact', sans-serif;
+    text-shadow: 2px 2px 8px #000;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #cccccc;
+    margin: 5px 0 0;
+    font-style: italic;
+}
+
+.container {
+    text-align: center;
+    margin: 100px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.85); /* Semi-transparent black */
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.9);
+    max-width: 800px;
+}
+
+.container h1 {
+    font-size: 3em;
+    color: #ff9800;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px #000;
+}
+
+.category-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button {
+    font-size: 1.5em;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    background: linear-gradient(45deg, #6b6b6b, #1a1a1a); /* Metallic effect */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #888888, #2b2b2b); /* Brighter metallic effect */
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .button {
+        font-size: 1.2em;
+        padding: 10px 20px;
+    }
+}
